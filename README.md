@@ -18,7 +18,7 @@ Modelscope Homepage：
 https://www.modelscope.cn/models/suxi123/SDTL/files
 ```
 
-Clone Linke：
+Clone Link：
 
 ```
 git clone https://oauth2:LisdBebtwskZbrUcnKw8@www.modelscope.cn/suxi123/SDTL.git
