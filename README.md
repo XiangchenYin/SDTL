@@ -40,7 +40,7 @@ sh train.sh
 
 ## How to test?
 
-首先需要将从modelscope社区下载的权重移到项目根路径；
+首先需要将从modelscope社区下载的权重移到项目根路径，数据集移动根目录的上一级；
 
 测试LOLv1数据集：
 
