@@ -10,15 +10,15 @@ pip install -r requirements.txt
 
 ## Download the datasets
 
-我们将数据集和模型的权重保存在了modelscope社区：
+Datasets and weights is saved in modelscope:
 
-主页：
+Modelscope Homepage：
 
 ```
 https://www.modelscope.cn/models/suxi123/SDTL/files
 ```
 
-clone链接：
+Clone Linke：
 
 ```
 git clone https://oauth2:LisdBebtwskZbrUcnKw8@www.modelscope.cn/suxi123/SDTL.git
@@ -32,7 +32,7 @@ train.py --image_folder  experiments/SDTL_LOLv1 \
 --config ./configs/LOLv1.yml --accelerator_train
 ```
 
-这同时也是`train.sh`的内容，或者可以
+This is also `train.sh`, just run as follows
 
 ```
 sh train.sh
@@ -40,9 +40,9 @@ sh train.sh
 
 ## How to test?
 
-首先需要将从modelscope社区下载的权重移到项目根路径，数据集移动根目录的上一级；
+First, you need to move the weights dir "experiments" downloaded from the modelscope community to the project root path, and the dataset dir "data" to the upper level of the root directory;
 
-测试LOLv1数据集：
+Test LOLv1 dataset:
 
 ```
 python evaluate.py --config configs/LOLv1.yml \
@@ -50,7 +50,7 @@ python evaluate.py --config configs/LOLv1.yml \
 --image_folder  result/SDT_LOLv1
 ```
 
-测试LOLv2数据集：
+Test LOLv2 dataset:
 
 ```
 python evaluate.py --config configs/LOLv2_real.yml \
@@ -58,7 +58,7 @@ python evaluate.py --config configs/LOLv2_real.yml \
 --image_folder  result/SDTL_LOLv2_real 
 ```
 
-测试LSRW数据集：
+Test LSRW dataset:
 
 ```
 python evaluate.py --config configs/LSRW.yml \
