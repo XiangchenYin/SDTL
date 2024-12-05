@@ -38,6 +38,6 @@ optim:
     amsgrad: False
     eps: 0.00000001
     step_size: 50
-    gamma: 0.90 # 目前90效果最好
+    gamma: 0.90 
     
 
